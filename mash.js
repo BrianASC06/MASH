@@ -26,10 +26,10 @@ function getcar(){
 if(car == undefined){
     return 'air';
 }
-    let cars = ['Lambo', 'convertible', 'box with wheels', 'nothing', car,'toy car'];
+    let cars = ['a Lambo', 'a convertible', ' a box with wheels', 'nothing', car,'a toy car'];
     return cars[Math.floor(Math.random()*cars.length)];   
 }
 function mash(){
-    return 'You will live in a ' + gethome() +', and you will have '+ getChildrenCount() + ' kids! You will also have a ' + getcar()+ '!';
+    return 'You will live in a ' + gethome() +', have '+ getChildrenCount() + ' kids and drive ' + getcar()+ '!';
 }
 console.log(mash());
